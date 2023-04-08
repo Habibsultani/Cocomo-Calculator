@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>COCOMO Calculator!</title>
+  </head>
+  
+  <body>
+    <div class="container-app">
+
+   
+    <h1>COCOMO Calculator!</h1>
+    <div><br>
+      <form name="InputArea">
+        &nbsp; &nbsp; Thousands of Lines of Estimated Code.
+        <input
+          type="TEXT"
+          name="KLOCEntry"
+          value="0"
+        
+          class="newValue form-des"
+        />
+        
+      </form>
+      <input
+      type="BUTTON"
+      name="CalculateButton"
+      value="Perform Calculation"
+      class="btn-click btn-des "
+        />
+      </form><br>
+    </div>
+    <div>
+      <form name="DisplayArea">
+        <h3><b>Organic Values:</b></h3>
+        Number of Months Needed:
+        <input type="TEXT" size="5" name="OrganicTime" onfocus="blur()" class="duration input-des-res" />
+        &nbsp; &nbsp; Number of People Needed:
+        <input type="TEXT" size="5" name="OrganicPeople" onfocus="blur()" class="people input-des-res" />
+
+        <h3><b>SemiDetached Values:</b></h3>
+        Number of Months Needed:
+        <input type="TEXT" size="5" name="SemiTime" onfocus="blur()" class="duration2 input-des-res" />
+        &nbsp; &nbsp; Number of People Needed:
+        <input type="TEXT" size="5" name="SemiPeople" onfocus="blur()" class="people2 input-des-res" />
+
+        <h3><b>Embedded Values:</b></h3>
+        Number of Months Needed:
+        <input type="TEXT" size="5" name="EmbedTime" onfocus="blur()" class="duration3 input-des-res" />
+        &nbsp; &nbsp; Number of People Needed:
+        <input type="TEXT" size="5" name="EmbedPeople" onfocus="blur()" class="people3 input-des-res" />
+      </form>
+
+    </div>
+  </div>
+  </body>
+</html>
